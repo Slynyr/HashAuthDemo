@@ -1,4 +1,4 @@
-# HasH Auth
+# Hash Auth
 ### Overview
 This git repo contains a demo of the hash/token verification system that was intended to be implemented for the 3rd round of battle bots. The token generator generates a hash from a string that contains the following ```Process id Seed, CPU Time```. This not only allows for the tokens to be validated by having a list of pre-determined seeds, but the inclusion of CPU time ensures that only tokens that were generated recently are valid. 
 
